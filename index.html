@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- font connet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- connect tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="poppins bg-black">
+    <header class="w-full h-[82px] bg-[#222222]">
+      <nav class="xl:w-3/5 w-11/12 mx-auto flex justify-between items-center">
+        <a href=""><img src="./img/logo.png" alt="" /></a>
+        <ul class="xl:flex gap-10 hidden">
+          <li><a href="#home" class="plus text-base text-white">Home</a></li>
+          <li><a href="#project" class="plus text-base text-white">Projects</a></li>
+          <li><a href="#experience" class="plus text-base text-white">Experiance</a></li>
+          <li><a href="#contact" class="plus text-base text-white">Contact</a></li>
+        </ul>
+        <div class="xl:hidden flex">
+          <i class="fa-solid fa-bars text-3xl cursor-pointer"></i>
+          <i class="fa-solid fa-xmark text-3xl hidden cursor-pointer"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="xl:w-3/5 w-11/12 mx-auto">
+      <section id="home" class="xl:w-3/5 my-20 mx-auto flex flex-col gap-8 items-center">
+        <div>
+          <img
+            src="./img/Avatar.png"
+            class="bg-gradient-to-r from-[#FF8660] to-[#8000FF] rounded-full"
+          />
+        </div>
+        <h1 class="text-white text-[55px] font-extrabold text-center leading-none">
+          I do code and <br />
+          make content
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-[#FF8660] to-[#9A33FF]"
+            >about it!</span
+          >
+        </h1>
+        <p class="text-lg font-light text-[#C5C5C5] text-center">
+          I am a seasoned full-stack software engineer with over 8 years of
+          professional experience, specializing in backend development. My
+          expertise lies in crafting robust and scalable SaaS-based
+          architectures on the Amazon AWS platform.
+        </p>
+        <div class="flex gap-5">
+          <button
+            type="button"
+            class="btn btn-primary rounded-3xl font-semibold text-xl text-[#161513] bg-white hover:bg-zinc-300"
+          >
+            Get In Touch
+          </button>
+          <button
+            class="btn btn-outline rounded-3xl hover:bg-white font-semibold text-xl text-white"
+          >
+            Download CV
+          </button>
+        </div>
+      </section>
+      <section id="project" class="w-full flex flex-col gap-12">
+        <div class="w-full mx-auto">
+          <p class="font-semibold text-white text-xl text-center">
+            EXPERIENCE WITH
+          </p>
+          <div class="xl:h-16 h-10 xl:w-[450px] mx-auto mt-10 flex justify-between ">
+            <img src="./icon/javascript.png" alt="" />
+            <img src="./icon/nodejs.png" alt="" />
+            <img src="./icon/html.png" alt="" />
+            <img src="./icon/css.png" alt="" />
+            <img src="./icon/reactjs.png" alt="" />
+          </div>
+        </div>
+        <div class="xl:w-10/12 w-full mx-auto">
+          <p
+            class="font-extrabold text-4xl text-transparent bg-clip-text bg-gradient-to-b from-[#FF8660] to-[#D5491D] text-center mb-10"
+          >
+            PROJECTS
+          </p>
+          <div class="grid xl:grid-cols-2 grid-cols-1 gap-10">
+            <div class="bg-[#2A2A2A] rounded-3xl cursor-pointer">
+              <img src="./img/project-thumbnail-1.png" alt="" class="w-full" />
+              <div class="py-4 px-6 flex justify-between items-center">
+                <span>
+                  <p class="font-extrabold text-[10px] text-[#C5C5C5]">
+                    CLICK HERE TO VISIT
+                  </p>
+                  <h3 class="font-extrabold text-[19px] text-white">
+                    HTML TUTORIAL
+                  </h3>
+                </span>
+                <span class="material-symbols-outlined"> north_east </span>
+              </div>
+            </div>
+            <div class="bg-[#2A2A2A] rounded-3xl cursor-pointer">
+              <img src="./img/project-thumbnail-2.png" alt="" class="w-full" />
+              <div class="py-4 px-6 flex justify-between items-center">
+                <span>
+                  <p class="font-extrabold text-[10px] text-[#C5C5C5]">
+                    CLICK HERE TO VISIT
+                  </p>
+                  <h3 class="font-extrabold text-[19px] text-white">
+                    CSS TUTORIAL
+                  </h3>
+                </span>
+                <span class="material-symbols-outlined"> north_east </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section Experience -->
+      <section id="experience" class="w-full my-20 flex flex-col gap-12">
+        <p
+          class="font-extrabold text-[35px] text-transparent bg-clip-text bg-gradient-to-b from-[#5BADFF] to-[#1373D1] text-center"
+        >
+          Experience
+        </p>
+        <div class="xl:w-10/12 mx-auto flex flex-col gap-10">
+          <div>
+            <div class="flex xl:flex-row flex-col justify-between xl:items-center mb-5">
+              <div class="flex gap-5 flex-col xl:flex-row">
+                <span><img src="./icon/google-logo.png" alt="" /></span>
+                <h3 class="text-[21px] font-bold text-white">
+                  Lead Software Engineer at Google
+                </h3>
+              </div>
+              <p class="text-sm font-normal text-[#8491A0]">
+                Nov 2019 - Present
+              </p>
+            </div>
+            <p class="text-sm font-normal text-[#8491A0]">
+              As a Senior Software Engineer at Google, I played a pivotal role
+              in developing innovative solutions for Google's core search
+              algorithms. Collaborating with a dynamic team of engineers, I
+              contributed to the enhancement of search accuracy and efficiency,
+              optimizing user experiences for millions of users worldwide.
+            </p>
+          </div>
+          <div>
+            <div class="flex xl:flex-row flex-col justify-between xl:items-center mb-5">
+              <div class="flex gap-5 flex-col xl:flex-row">
+                <span><img src="./icon/apple-logo.png" alt="" /></span>
+                <h3 class="text-[21px] font-bold text-white">
+                  Junior Software Engineer at Apple
+                </h3>
+              </div>
+              <p class="text-sm font-normal text-[#8491A0]">
+                jan 2014 - may 2015
+              </p>
+            </div>
+            <p class="text-sm font-normal text-[#8491A0]">
+              During my tenure at Apple, I held the role of Software Architect,
+              where I played a key role in shaping the architecture of
+              mission-critical software projects. Responsible for designing
+              scalable and efficient systems, I provided technical leadership to
+              a cross-functional team.
+            </p>
+          </div>
+          <div>
+            <div class="flex xl:flex-row flex-col justify-between xl:items-center mb-5">
+              <div class="flex gap-5 flex-col xl:flex-row">
+                <span><img src="./icon/meta-logo.png" alt="" /></span>
+                <h3 class="text-[21px] font-bold text-white">
+                  Software Engineer at Meta
+                </h3>
+              </div>
+              <p class="text-sm font-normal text-[#8491A0]">
+                Nov 2016 - Des 2017
+              </p>
+            </div>
+            <p class="text-sm font-normal text-[#8491A0]">
+              At Meta, I served as a Software Engineer, focusing on the design
+              and implementation of backend systems for the social media giant's
+              dynamic platform. Working on projects that involved large-scale
+              data processing and user engagement features, I leveraged my
+              expertise to ensure seamless functionality and scalability.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="w-full xl:py-[100px] py-16 bg-[#191919]">
+      <section class="xl:w-3/5 w-11/12 mx-auto">
+        <div class="xl:w-10/12 mx-auto flex flex-col gap-10">
+          <h3 class="font-bold text-white text-2xl xl:text-start text-center">Contact</h3>
+          <p class="text-[#C5C5C5] font-light text-sm xl:text-start text-center">
+            Seasoned Full Stack Software Engineer with over 8 years of hands-on
+            experience in designing and implementing robust, scalable, and
+            innovative web solutions. Adept at leveraging a comprehensive skill
+            set encompassing front-end and back-end technologies
+          </p>
+          <p class="text-[#C5C5C5] font-semibold text-sm xl:text-start text-center">
+            <i class="fa-regular fa-envelope mr-2"></i>
+            <span class="hover:underline hover:text-blue-600">tamim@gmail.com</span>
+          </p>
+          <span class="flex gap-5 xl:justify-start justify-center">
+            <a href=""><i class="fa-brands fa-instagram text-2xl"></i></a>
+            <a href="">
+              <i class="fa-brands fa-x-twitter text-2xl"></i>
+            </a>
+            <a href=""><i class="fa-brands fa-youtube text-2xl"></i></a>
+          </span>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
